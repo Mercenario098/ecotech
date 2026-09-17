@@ -1,2 +1,7 @@
+# Dependências
+node_modules/
 backend/node_modules/
+
+# Variáveis de ambiente / senhas
+.env
 backend/.env

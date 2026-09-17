@@ -54,8 +54,8 @@ async function consultarResiduo(nome) {
   try {
 
     const resposta = await fetch(
-      `http://localhost:3000/api/residuos?nome=${encodeURIComponent(nome)}`
-    );
+  `/api/residuos?nome=${encodeURIComponent(nome)}`
+);
 
     // Se a API retornar 404
     if (resposta.status === 404) {
