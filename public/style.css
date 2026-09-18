@@ -755,6 +755,7 @@ footer {
 @media (max-width: 768px) {
 
   /* HEADER */
+
   header {
     flex-direction: column;
     align-items: center;
@@ -787,11 +788,12 @@ footer {
 
 
   /* HERO */
+
   .hero-container {
-  grid-template-columns: 1fr;
-  gap: 30px;
-  padding-top: 35px;
-}
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-top: 35px;
+  }
 
   .secao1 h2 {
     font-size: 2.2rem;
@@ -799,6 +801,7 @@ footer {
 
 
   /* ODS 12 */
+
   .ods-container {
     grid-template-columns: 1fr;
   }
@@ -827,6 +830,7 @@ footer {
 
 
   /* CONSULTA */
+
   .consulta-section {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -847,22 +851,51 @@ footer {
     right: calc(50% - 90px);
   }
 
+  .consulta-content {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .consulta-content p {
+    white-space: normal;
+  }
+
   .consulta-form {
     flex-direction: column;
+    width: 100%;
+  }
+
+  .consulta-form input {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
   }
 
   .consulta-form button {
+    width: 100%;
     padding: 13px 24px;
+    box-sizing: border-box;
+  }
+
+  .consulta-status {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
   }
 
 
   /* BENEFÍCIOS */
+
   .ods-benefits {
     grid-template-columns: repeat(2, minmax(160px, 1fr));
   }
 
 
   /* FOOTER */
+
   .footer-container {
     grid-template-columns: 1fr;
     gap: 30px;
